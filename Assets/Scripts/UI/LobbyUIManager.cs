@@ -5,7 +5,6 @@ using Mirror;
 using TMPro;
 using UnityEngine.UI;
 using Steamworks;
-using Unity.VisualScripting;
 
 namespace Friendslop 
 {
