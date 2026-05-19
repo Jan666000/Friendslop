@@ -1000,7 +1000,8 @@ MonoBehaviour:
   playerPrefab: {fileID: 5595719446801657199, guid: 344dc0a505f35ac47ac3a2292c2374d8, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
-  spawnPrefabs: []
+  spawnPrefabs:
+  - {fileID: 2947864575942757351, guid: c00c0fa6eb732764bb46fb1e685f43b1, type: 3}
   exceptionsDisconnect: 1
   snapshotSettings:
     bufferTimeMultiplier: 2
@@ -1016,6 +1017,7 @@ MonoBehaviour:
   evaluationMethod: 0
   evaluationInterval: 3
   timeInterpolationGui: 0
+  playerGameplayPrefab: {fileID: 2947864575942757351, guid: c00c0fa6eb732764bb46fb1e685f43b1, type: 3}
 --- !u!114 &847520022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1299,7 +1301,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1088489006}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1585267397}
+        m_TargetAssemblyTypeName: Friendslop.LobbyUIManager, Assembly-CSharp
+        m_MethodName: OnPlayButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1088489006
 MonoBehaviour:
   m_ObjectHideFlags: 0
